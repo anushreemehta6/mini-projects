@@ -46,7 +46,7 @@ h1{
     color: darkmagenta;
     background-color: beige;
 }
-.reset-but{
+/* .reset-but{
     height: 15vmin;
     width: 30vmin;
     background-color: fuchsia;
@@ -55,7 +55,7 @@ h1{
     font-weight: bolder;
     border: 2px solid black;
     border-radius: 1rem;
-}
+} */
 
 .new-btn{ height: 10vmin;
     width: 20vmin;
@@ -84,4 +84,15 @@ h1{
 
 .hide {
   display: none;
+}
+
+#new-btn{
+    height: 15vmin;
+    width: 30vmin;
+    background-color: fuchsia;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 1rem;
 }
