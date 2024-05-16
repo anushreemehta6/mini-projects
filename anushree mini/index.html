@@ -10,7 +10,7 @@
     <main>
       <h1>Rock-Paper-Scissors</h1>
       <div class="options">
-        <button class="choice">
+        <button class="choice" id="rock">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -54,7 +54,7 @@
           </svg>
           Rock
         </button>
-        <button class="choice">
+        <button class="choice" id="paper">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -90,7 +90,7 @@
           </svg>
           paper
         </button>
-        <button class="choice">
+        <button class="choice" id="scissors">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -143,11 +143,12 @@
           <p id="comp-score">0</p>
           <p>Comp</p>
         </div>
-        <div class="new-game">
-          <button class="new">New Game</button>
-        </div>
+        
+      </div>
+      <div class="msg-container">
+        <p id="msg">Play your move</p>
       </div>
     </main>
-    <script src="app2"></script>
+    <script src="app2.js"></script>
   </body>
 </html>

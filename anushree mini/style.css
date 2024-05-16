@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding-top: 20px;
+  padding-top: 0;
   background-color: #cb8589;
 }
 h1 {
@@ -29,7 +29,9 @@ h1 {
   background-color: #e8d2ae;
   color: black;
 }
-
+.choice:hover{
+     background-color: #85accb;
+}
 .score-board {
   display: flex;
   justify-content: center;
@@ -43,19 +45,23 @@ h1 {
 #comp-score {
   font-size: 4rem;
 }
-.new {
-  height: 10vmin;
-  width: 30vmin;
-  background-color: #e8d2ae;
-  color: black;
-  border-radius: 20px;
-  font-size: xx-large;
-  font-weight: bold;
-}
+ 
 
-.new-game {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-}
+.msg-container {
+    margin-top: 5rem;
+    width: 212vmin;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #msg {
+    background-color: #e8d2ae;
+     
+    font-size: 2rem;
+   
+    padding: 1rem;
+    border-radius: 1rem;
+    
+  }
+  
