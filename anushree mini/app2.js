@@ -12,13 +12,13 @@ const showWinner = (userWin) => {
     msg.innerText = "You WIN!!";
     msg.style.backgroundColor = "green";
     userScore++;
-    disuser.innerText= userScore
+    disuser.innerText= userScore;
   } else {
     console.log("you lose");
     msg.innerText = "You LOSE!!";
     msg.style.backgroundColor = "red";
     compScore++;
-    discomp.innerText= compScore
+    discomp.innerText= compScore;
   }
 };
 
